@@ -21,7 +21,7 @@ namespace Task1FromFile
 
         static void Main(string[] args)
         {
-            FileStream fs = new FileStream(@"C:\Users\Yedige\Desktop\ProgrammingII\Week2\Lab2\Task1FromFile\TestFiles\Task1Test.txt", FileMode.Open, FileAccess.Read);
+            FileStream fs = new FileStream(@"C:\Users\Yedige\Desktop\ProgrammingII\pp2\Week2\Lab2\Task1FromFile\TestFiles\Task1Test.txt", FileMode.Open, FileAccess.Read);
             StreamReader sr = new StreamReader(fs);
             string s = sr.ReadLine();
             if (IsPalindrome(s))
